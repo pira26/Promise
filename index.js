@@ -6,7 +6,6 @@ const urls = ['http://localhost:3000/movies/4/'];
 urls.push(randomMovieURL);
 const promise = [];
 
-
 /*
 fetch(movieURL, {
     method: 'get'
