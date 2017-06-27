@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Promise</title>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        const config = {
+            apiKey: "AIzaSyAO0w3x4FWWUYbQU_nnxqi8Sdf6xJFBnZM",
+            authDomain: "fir-project-51057.firebaseapp.com",
+            databaseURL: "https://fir-project-51057.firebaseio.com",
+            projectId: "fir-project-51057",
+            storageBucket: "fir-project-51057.appspot.com",
+            messagingSenderId: "558121898483"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="./firebaseDB.js"></script>
+    <script src="./helper.js"></script>
     <script src="./index.js"></script>
 </head>
 <body>
-
+    <div id="movies"></div>
 </body>
 </html>
